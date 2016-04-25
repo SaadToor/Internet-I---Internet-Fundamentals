@@ -1,0 +1,252 @@
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+	color:inherit;
+	width:1000px;
+}
+li {
+    float: left;
+	border-right:solid 1px #ffffff;
+}
+li a {
+    display: block;
+	background-color:inherit;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:15px;
+}
+li a:hover {
+    background-color: #0044ff;
+	color:inherit;
+}
+a:link{
+	text-decoration:none;
+}
+.homeStyle{
+	color:#0099ff;
+	background-color: inherit;
+	font-family:"Monotype Corsiva", Monotype, serif;
+	margin-left:25px;
+	margin-bottom:15px;
+	font-size:45px;
+}
+
+.main{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:1000px;
+	height:768px;
+	background-image:linear-gradient(to bottom right, #00aaff 33%, #0022ff);
+}
+.leftBackGournd{
+	background:radial-gradient(circle,#ffffff,#cccccc,#cccccc);
+	width:500px;
+	margin-left:245px;
+	padding:10px;
+}
+.footer{
+	border:solid 1px;
+	background-color:#333333;
+	color:#ffffff;
+	text-align:center;
+	width:1000px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.s_Avtive_nav{
+    background-color: #0044ff;
+	color:inherit;
+}
+.naming{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:50px;
+}
+.naming_2{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:85px;
+}
+.naming_3{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:120px;
+}
+.naming_4{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:155px;
+}
+.naming_5{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:465px;
+}
+.naming_6{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:500px;
+}
+.naming_7{
+	float:left;
+	font-size:15px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;
+	position:absolute;
+	margin-left:50px;
+	margin-top:535px;
+}
+#guest{
+	width:250px;
+	height:25px;
+	margin-left:170px;
+	margin-top:50px;
+	position:absolute;
+}
+#email{
+	width:250px;
+	height:25px;
+	margin-left:170px;
+	margin-top:85px;
+	margin-bottom:2px;
+    position:absolute;	
+}
+#city{
+	width:250px;
+	height:25px;
+	margin-left:170px;
+	margin-top:120px;
+	margin-bottom:2px;
+	position:absolute;
+}
+#web_url{
+	width:250px;
+	height:25px;
+	margin-bottom:2px;
+	position:absolute;
+	margin-left:170px;
+	margin-top:465px;
+}
+#web_title{
+	width:250px;
+	height:25px;
+	margin-left:170px;
+	margin-top:500px;
+	margin-bottom:2px;
+	position:absolute;
+}
+#comments{
+	width:248px;
+	height:45px;
+	margin-left:170px;
+	margin-top:535px;
+	margin-bottom:2px;
+	position:absolute;
+}
+#province{
+	width:254px;
+	margin-left:170px;
+	margin-top:155px;
+	margin-bottom:2px;
+	position:absolute;
+}
+#locationS{
+	margin-left:170px;
+	margin-top:590px;
+	position:absolute;
+}
+#locationR{
+	margin-left:335px;
+	margin-top:590px;
+	position:absolute;
+}
+.spacing{
+	margin-left:170px;
+	margin-top:620px;
+	position:absolute;
+}
+.rightBackGournd{
+	float:left;
+	background-color:#cccccc;
+	color:inherit;
+	background:radial-gradient(circle,#ffffff,#cccccc,#cccccc);
+	margin-left:100px;
+	width:405px;
+	height:auto;
+	padding:10px;
+	text-align:center;
+}
+.socialMed{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.img{
+	margin-top:20px;
+}
+.leftBackGourndUnder{
+    float:left;
+	margin-left:30px;
+	position:absolute;
+}
+#image
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+#container
+{
+    height:615px;
+    width:1000px;
+    position:relative;
+}
+#viewguests{
+	width:400px;
+	height:25px;
+	margin-left:510px;
+	margin-top:50px;
+	position:absolute;
+}

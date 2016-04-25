@@ -1,0 +1,165 @@
+/* *********************************************************
+   These are the styles used in the Tables page
+   ********************************************************* */
+.T2ClassCenterCenter{
+	border:solid 2px;
+	vertical-align:center;
+	text-align:center;	
+}
+.T2ClassBottomCenter{
+	border:solid 2px;
+	vertical-align:bottom;
+	text-align:center;		
+}
+.T2ClassTopRight{
+	border:solid 2px;
+	vertical-align:top;
+	text-align:right;			
+}
+.table1{
+	border:solid 4px;
+	width:500px;
+	border-collapse:separate;
+	border-spacing:10px;
+}
+.CellHeaderEx{
+	border:solid 2px;
+	text-align:center;
+}
+.AlignmentWithCSS{
+	border:solid 2px;
+	text-align:center;
+}
+.T2ClassTopLeft{
+	border:solid 2px;
+	vertical-align:top;
+}
+.Center{
+	border:solid 2px;
+	vertical-align:center;
+	text-align:center;
+}
+.CenterRow{
+	border:solid 2px;
+	vertical-align:center;
+	text-align:center;
+	height:60px;
+}
+.T2ClassTopCenter{
+	border:solid 2px;
+	vertical-align:top;
+	text-align:center;
+}	
+.T2ClassCenterRight{
+	border:solid 2px;
+	vertical-align:center;
+	text-align:right;			
+}
+.T2ClassCenterLeft{
+	border:solid 2px;
+	vertical-align:center;
+}
+.T2ClassBottomLeft{
+	border:solid 2px;
+	vertical-align:bottom;	
+}
+.TCenter{
+	text-align:center;
+	border:solid 2px;
+}
+.T2ClassBottomRight{
+	border:solid 2px;
+	vertical-align:bottom;
+	text-align:right;			
+}
+.Table2{
+	border:solid 8px;
+	width:300px;
+	border-collapse:separate;
+	border-spacing:10px;
+	margin-top:5px;
+	vertical-align:bottom;
+	margin-left:35px;
+	
+}
+.TableCell{
+	border:solid 2px;
+	padding-top:10px;
+}
+.CaptionNestedTable{
+	caption-side:bottom;
+	font-weight:bold;
+}
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+.Paragrph{
+	margin-left:30px;
+}
+
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+
+   
+/*  *********************************************************
+	These are the styles used in the Honesty page
+	********************************************************* */
+.HonestyLeftLine{
+	border-left:solid 3px;
+	padding-left:15px;
+	border-color:#cccccc;
+	margin-left:35px;
+}
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+.SquareListOne{
+	list-style-type:square;
+}
+.LowerAlphaListTwo{
+	list-style-type:lower-alpha;
+}
+.NestedCircleListThreeP1{
+	list-style-type:circle;
+}
+.NestedLowerRomanListThreeP2{
+	list-style-type:lower-roman;
+}
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+
+.TextParagraphOne{
+	letter-spacing:3px;
+}
+.TextParagraphTwo{
+	text-decoration:underline;
+}
+.TextParagraphThree{
+	word-spacing:30px;
+}
+.TextParagraphFour{
+	text-indent:40px;
+}
+.TextParagraphFive{
+	background-color:#000066;
+	color:#ffffff;
+}
+.TextParagraphSix{
+	font-family:"Times New Roman", serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.TextParagraphSeven{
+	font-style:italic;
+}
+#TextParagraphEight{
+	text-decoration:underline;
+}
+.TextParagraphNine{
+	text-transform:uppercase;
+}

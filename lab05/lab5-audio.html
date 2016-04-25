@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>INT222_161b30 Assignment 2</title> 
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html" class="s_Avtive_nav">Audio</a></li>
+        <li><a href="html5.html">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook/index.html">Guest Book</a></li>
+        <li><a href="css/sitecss.css">CSS Used</a></li>
+		<li><a href="extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+	
+	<div class="main_4">
+	 <div class="leftBackGournd">
+	 <div class="homeStyle">Audio</div>
+	  <div class="firstWhiteBox">
+	   <span class="htmltitle">Audio implementation in HTML5</span><br/><br/>
+	   <p>Ludwig van Beethoven was a German composer. A crucial figure in the transition between the Classical and Romantic eras in Western art music, he remains one of the most famous and influential of all composers.
+	   </p>
+	  </div>
+	  <div class="secondWhiteBox">
+	   <span class="htmltitle">Beethoven - Moonlight Sonata</span>
+	    <div class="vialign">
+		 <audio controls="controls">
+		  <source src="misc/Beethoven.mp3" type="audio/mpeg" />
+		  <source src="misc/Beethoven.ogg" type="audio/ogg" />
+		 </audio>
+		 <script>
+          var audio = document.getElementsByTagName('audio')[0];
+         </script>
+		</div>
+	  </div>
+	 </div>	 
+	 <div class="rightBackGournd">
+	  <div class="recommendedLinksDiv">
+	   <span class="recommendedLinks">Video Control Options</span>
+	   
+	   <div class="smallBackgroundBox">
+	    <div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.play();">
+		 Play
+		 </div>
+		</div>
+		<div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.pause();">
+		 Pause
+		 </div>
+		</div>
+		<div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.volume=1;">
+		 Volume On
+		 </div>
+		</div>
+		<div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.volume=0;">
+		 Volume Off
+		 </div>
+		</div>
+		<div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.volume+=0.1;">
+		 Increase Volume
+		 </div>
+		</div>
+		<div class="outsideBox"> 
+		 <div class="insideBox" onclick="audio.volume-=0.1;">
+		 Decrease Volume
+		 </div>
+		</div>
+		</div>
+		<div class="redBorder_3"></div>
+	   </div>
+	   
+	   
+	   <div class="rightSubMain">
+	    <span class="socialMed">Social Media Links</span>
+	   </div>
+	   <div class="img">
+	    <img src="images/social-media.png" alt="" class="img" width="405" height="215" usemap="#socialMedia"/>
+	   </div>
+	   <map name="socialMedia">
+	   <!-- X left, Y Top,  X bottom, Y right--> 
+	    <area shape="rect" coords="7,4,43,41" href="https://www.facebook.com" alt=""/>
+		<area shape="rect" coords="53,4,88,41" href="https://twitter.com/" alt=""/>
+		<area shape="rect" coords="95,4,132,41" href="https://www.pinterest.com/" alt=""/>
+		<area shape="rect" coords="141,4,176,41" href="https://plus.google.com/" alt=""/>
+	   </map>
+	   
+	  </div>
+	</div>
+	
+   <footer class="footer">
+    <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+    </script>
+   </footer>
+  </body>
+</html>

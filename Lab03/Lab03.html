@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <title>INT222</title>
+ 
+ <link rel="stylesheet" href="Lab03.css" type="text/css" media="screen" />
+ 
+ <script>
+
+ var e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+ // Your code goes here
+ e1 = prompt("Please enter your first name:","saad");
+ 
+ e1 = e1.substr(0,1).toUpperCase()+e1.substring(1);
+ document.write(e1, "<br>");
+ 
+ e2 = prompt("Please enter a number from 1-9:","5");
+ 
+ e3 = prompt("Please enter 5 numbers seperated by commas:","1,2,3,4,5");
+ 
+ e4 = prompt("Please enter 3 colors seperated by commas:","Black,Blue,Green");
+ 
+ e6 = e3.split(',');
+ 
+ e7 = e4.split(',');
+ document.write(e4);
+ 
+ document.write('<table class="Saad_Table_1">');
+ document.write('<caption class="Saad_Cap_1">' + 'The number in e2 is ' + e2 + '</caption>');
+ document.write('<tr><th colspan=5 class="Saad_Table_1">' + 'Times Table for the number ' + e2 + '</th></tr>');
+ 
+ for(var i=1; i<=12; i++)
+ {
+	e5 = e2 * i;
+	document.write('<tr><td class="Saad_Table_1">' + e2 + '</td>' + '<td class="Saad_Table_1">' + '*' + '</td>' + '<td class="Saad_Table_1">' + i + '</td>' + '<td class="Saad_Table_1">' + '=' + '</td>' + '<td class="Saad_Table_1">' + e5 + '</td></tr>');
+ }
+ document.write('</table>');
+ 
+ e8 = 0;
+ for(var i=0; i<5; i++)
+ {
+	e8 += eval(e6[i]);
+ }
+ alert(e8);
+ 
+ for (var i=0; i < e7.length; i++){
+    e9+= e7[i] + "\n";
+ }
+ alert(e9); 
+ </script>
+ </head>
+ <body>
+ </body>
+</html>

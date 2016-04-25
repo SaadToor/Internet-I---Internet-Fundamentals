@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>INT222_161b30 Assignment 2</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/sitecss.css"   type="text/css" media="screen" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="html5.html" class="s_Avtive_nav">HTML5</a></li>
+        <li><a href="tables.html">Tables with CSS</a></li>
+        <li><a href="guestbook/index.html">Guest Book</a></li>
+        <li><a href="css/sitecss.css">CSS Used</a></li>
+		<li><a href="extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+	
+	<div class="main_5">
+	 <div class="leftBackGournd">
+	  <div class="homeStyle">HTML5</div>
+	   <div class="firstWhiteBox">
+	    <span class="htmltitle">HTML5 new form attributes</span><br/><br/>
+		<p>
+		In this page I will introduce some new attributes that can be used in HTML5 with, the form tag and the help of CSS.
+		</p>
+	   </div>
+	   <div class="secondWhiteBox">
+	    <span class="htmltitle">How to set autofocus</span><br/>
+		 <input type="text" name="entry01" id="entry01" autofocus="autofocus" /> <mark>autofocus</mark><br/>
+		 <p>&lt;input type="text" name="entry01" id="entry01" autofocus="autofocus" /&gt; autofocus
+		 </p>
+		 
+		 <hr class="hrLine"/>
+		 
+		 <span class="htmltitle">How to set placeholder</span><br/>
+		 <form action="test">
+          <input type="text" name="fname" placeholder="First name"><br>
+          <input type="submit" value="Submit">
+         </form> 
+		 
+		 <p>		 
+		 &lt;form action="demo_form.asp"&gt;<br/>
+          &lt;input type="text" name="fname" placeholder="First name"&gt;<br>
+          &lt;input type="submit" value="Submit"&gt;
+         &lt;/form&gt;
+		 </p>
+		 
+		 <hr class="hrLine"/>
+		 <span class="htmltitle">How to set required for an entry</span><br/>
+		 <form action="test">
+          Name: <input type="text" name="usrname" required>
+          <input type="submit">
+         </form>
+		 
+		 <p>		 
+		 &lt;form action="demo_form.asp"&gt;<br/>
+          Name: &lt;input type="text" name="usrname" required&gt;<br/>
+          &lt;input type="submit"&gt;
+         &lt;/form&gt;
+		 </p>
+		 
+		 <hr class="hrLine"/>
+		 <span class="htmltitle">How to create a list/datalist</span><br/>
+		  <form action="test" method="get">
+		   <input list="fruit" name="fruit">
+		    <datalist id="fruit">
+             <option value="Pineapple">Pineapple</option>
+             <option value="Bannanna">Bannanna</option>
+             <option value="Peach">Peach</option>
+             <option value="Orange">Orange</option>
+             <option value="Grape">Grape</option>
+           </datalist>
+          <input type="submit">
+         </form>
+		 
+		 <p>		 
+		  &lt;form action="test" method="get"&gt;<br/>
+		   &lt;input list="fruit" name="fruit"&gt;<br/>
+		    &lt;datalist id="fruit"&gt;<br/>
+             &lt;option value="Pineapple"&gt;<br/>
+             &lt;option value="Bannanna"&gt;<br/>
+             &lt;option value="Peach"&gt;<br/>
+             &lt;option value="Orange"&gt;<br/>
+             &lt;option value="Grape"&gt;<br/>
+           &lt;/datalist&gt;<br/>
+          &lt;input type="submit"&gt;<br/>
+         &lt;/form&gt;
+		 </p>
+		 <hr class="hrLine"/>
+		 
+		 <span class="htmltitle">How to ensure a valid email address format</span><br/>
+		 <form action="test">
+          Email: <input type="email" name="mail" required>
+         </form>
+		 <p>		 
+		  Email: &lt;input type="email" name="mail" required&gt;
+		 </p>
+		 <hr class="hrLine"/>
+		 <span class="htmltitle">How to ensure a valid url format</span><br/>
+		 <form action="test">
+          URL: <input type="url" name="URL" required>
+         </form>
+		 
+		 <p>		 
+		  URL: &lt;input type="email" name="mail" required&gt;
+		 </p>
+	   </div>
+
+	  </div> 
+
+	  <div class="rightBackGournd">
+	  <div class="recommendedLinksDiv">
+	   <span class="recommendedLinks">New Attributes in HTML5</span>
+	  </div>
+	    <ol class="list_5">
+		 <li>Method</li>
+		 <li>Action</li>
+		 <li>Class</li>
+		 <li>Type</li>
+		 <li>Autofocus</li>
+		 <li>ID</li>
+		 <li>Value</li>
+		 <li>Name</li>
+		 <li>List</li>
+		</ol>
+		 <div class="redBorder_6"></div>
+		 
+	   <div class="rightSubMain">
+	    <span class="socialMed">Social Media Links</span>
+	   </div>
+	   	
+	   <div class="img">
+	    <img src="images/social-media.png" alt="" class="img" width="405" height="215" usemap="#socialMedia"/>
+	   </div>
+	   <map name="socialMedia">
+	   <!-- X left, Y Top,  X bottom, Y right--> 
+	    <area shape="rect" coords="7,4,43,41" href="https://www.facebook.com" alt=""/>
+		<area shape="rect" coords="53,4,88,41" href="https://twitter.com/" alt=""/>
+		<area shape="rect" coords="95,4,132,41" href="https://www.pinterest.com/" alt=""/>
+		<area shape="rect" coords="141,4,176,41" href="https://plus.google.com/" alt=""/>
+	   </map>
+	   
+	  </div>
+	  
+	 </div>
+
+	<footer class="footer">
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

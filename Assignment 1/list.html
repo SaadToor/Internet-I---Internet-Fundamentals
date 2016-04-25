@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>INT222_161b30 assignment 1 - list.html INT222_161b30</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Lists With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+		
+		<!--I have used the UL and LI to make unorderd list, next i used the OL for ordered lists, After i
+		used the UL and OL to create a nested list, and finally used the DL to create a definition list.-->
+		
+		<p><b>1.An unordered list</b></p>
+		<p><u>My favorite three sports are:</u></p>
+		 <ul class="SquareListOne">
+			<li>Soccer</li>
+			<li>Badminton</li>
+			<li>Ice Hockey</li>
+		 </ul>
+		<hr>
+
+		<p><b>1.An ordered list</b></p>
+		<p><u>My favorite three classes are:</u></p>
+		 <ol class="LowerAlphaListTwo">
+			<li>CUL502</li>
+			<li>IBC233</li>
+			<li>OOP244</li>
+		 </ol>
+		<hr>
+
+		<p><b>1.An nested list</b></p>
+		<p><u>My favorite three sports and classes:</u></p>
+		<ul class="NestedCircleListThreeP1">
+			<li>Soccer</li>
+			<li>Badminton</li>
+			<li>Ice Hockey
+			<ol class="NestedLowerRomanListThreeP2">
+				<li>CUL502</li>
+				<li>IBC233</li>
+				<li>OOP244</li>
+			</ol>
+			</li>
+		</ul>
+		<hr>
+		
+		<p>This is a Definition list</p>
+		<dl>
+		<dt> Here is a defintion list</dt>
+			<dd> This list helps user stay neat</dd>
+			<dd> For example: listing groceries</dd>
+		</dl>
+
+		
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

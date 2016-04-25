@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>INT222_161b30 Assignment 2</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="guestbook.css" type="text/css" media="screen" />
+   <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-02/guest.css"  type="text/css" />
+   <script src="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-02/guest.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">My zenit Account</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../gallery.html">Photo Gallery</a></li>
+        <li><a href="../video.html">Video</a></li>
+        <li><a href="../audio.html">Audio</a></li>
+        <li><a href="../html5.html">HTML5</a></li>
+        <li><a href="../tables.html">Tables with CSS</a></li>
+        <li><a href="../guestbook/index.html" class="s_Avtive_nav">Guest Book</a></li>
+        <li><a href="../css/sitecss.css">CSS Used</a></li>
+		<li><a href="../extra/index.html">Extra</a></li>
+      </ul>
+    </nav>
+   <div class="main">
+    <div class="leftBackGournd">
+	 <div class="homeStyle">Welcome to the Guest Book</div>
+	</div>
+	<div id="container">
+	<img id="image" src="../images/book.jpg" alt="" class="img" width="1000" height="655"/>
+	  <form method="post" action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/guestbook.cgi">
+
+	  <label class="naming">
+	   Name:
+	  </label>
+	  <input type="text" size="45" maxlength="40" required="required" name="guest" id="guest"/>
+	  
+	  <label class="naming_2">
+	   E-mail adress:
+	  </label>
+	  <input type="text" size="60" maxlength="60" required="required" name="email" id="email"/>
+	  
+	  <label class="naming_3">
+	   City:
+	  </label>
+	  <input type="text" size="35" maxlength="30" required="required" name="city" id="city"/>
+
+	  <label class="naming_4">
+	   Province:
+	  </label>
+	   <select size="15" name="Province" id="province" required="required">
+        <optgroup label="Province">
+         <option value="Alberta">Alberta</option>
+         <option value="British Columbia">British Columbia</option>
+         <option value="Manitoba">Manitoba</option>
+		 <option value="New Brunswick">New Brunswick</option>
+		 <option value="Newfoundland & Labrador">Newfoundland & Labrador</option>
+		 <option value="Nova Scotia">Nova Scotia</option>
+		 <option value="Ontario" selected="selected">Ontario</option>
+		 <option value="Prince Edward Island">Prince Edward Island</option>
+		 <option value="Quebec">Quebec</option>
+		 <option value="Saskatchewan">Saskatchewan</option>
+        </optgroup>
+        <optgroup label="Territory">
+         <option value="Northwest Territories">Northwest Territories</option>
+         <option value="Nunavut">Nunavut</option>
+		 <option value="Yukon">Yukon</option>
+        </optgroup>
+       </select>
+
+      <label class="naming_5">
+	   Web Page URL:
+	  </label>
+	  <input type="text" size="60" maxlength="60" name="web_url" id="web_url"/>
+
+	  
+	  <label class="naming_6">
+	   Web Page Title:
+	  </label>
+	  <input type="text" size="25" name="web_title" id="web_title"/>
+
+	  <label class="naming_7">
+	   Comments:
+	  </label>
+	  <textarea name="comments" id="comments"></textarea>
+	  
+	  <input type="submit" value="Sign Guest Book" id="locationS"/>
+	  <input type="reset" value="Start Over" id="locationR"/>
+	  
+	  <div class="spacing">
+	  <a href="javascript:unhide('on');"><span class="nonDec">View Guest Book : </span></a>
+	  <a href="javascript:unhide('off');"><span class="nonDec">Hide Guest Book</span></a>
+	 </div>
+	  
+
+	   <div id="viewguests">
+	    <iframe src="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/viewguestbook.cgi"></iframe>
+	   </div>
+	  
+	</form>
+   </div>
+  </div>
+	<footer class="footer">
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString())
+        </script>
+    </footer>
+  </body>
+</html>

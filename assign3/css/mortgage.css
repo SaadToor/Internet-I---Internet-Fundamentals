@@ -1,0 +1,294 @@
+.outside-Border{
+	background-color: #99ccff;
+	color:inherit;
+	width:985px;
+	height:680px;
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	border:2px solid #cccccc;
+
+}
+hr{
+	background-color:#444444;
+	color:inherit;
+	height:8px;
+	margin-top:30px;
+}
+#amortization{
+	height:20px;
+	margin-bottom:5px;
+}
+#intRate{
+	height:20px;
+	margin-bottom:5px;
+}
+#mortYear{
+	height:20px;
+	margin-bottom:5px;
+}
+#mortMonth{
+	height:20px;
+}
+.inside-Left{
+	float:left;
+	padding-top:10px;
+}
+.oBorder{
+    border:4px outset #5555ff;
+	background-color: #99ddff;
+	color:inherit;
+	margin-top:100px;
+	margin-bottom:70px;
+	padding-left:10px;
+	width:225px;
+	border-radius:10px;
+}
+.mortgagLabel{
+	border: 4px groove #5555ff;
+	border-radius:10px;
+    background-color: #00ccff; 
+    color: #990000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px; 
+}
+.labelSpacings{
+	float:left;
+	font-size:13px;
+	font-weight:bold;
+	line-height:15px;
+	height:15px;
+	width:120px;	
+}
+.sumbitButton{
+	background-color:inherit;
+	border-radius:10px;
+	margin-top:40px;
+	margin-left:50px;
+	padding:7px;
+	width:140px;
+	font-size:12px;
+	color: #cc0000;
+	font-weight: bold;
+	background: linear-gradient(#ffeeff,#00ccff);
+}
+
+.ClearMessage{
+	background-color:inherit;
+	border-radius:10px;
+	margin-top:10px;
+	margin-left:50px;
+	padding:7px;
+	width:140px;
+	font-size:16px;
+	color: #cc0000;
+	font-weight: bold;
+	background: linear-gradient(#ffeeff,#00ccff);
+}
+
+
+
+
+.inside-Middle{
+	float:left;
+	padding-top:10px;
+	border:1px solid;
+	margin-left:1px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.oBorder-Middle{
+    border:4px outset #5555ff;
+	background-color: #99ddff;
+	color:inherit;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:335px;
+	border-radius:10px;
+}
+#userId{
+	height:20px;
+	margin-bottom:5px;
+}
+#client{
+	height:20px;
+}
+#propValue{
+	height:20px;
+	margin-bottom:5px;
+}
+#downPay{
+	height:20px;
+}
+.location-Text{
+	font-weight: bold;
+	margin-left:2px;
+	font-size:12px;
+}
+.incomeR-Text{
+	margin-left:80px;
+	font-weight: bold;
+	font-size:12px;
+}
+#income{
+	margin-left:10px;
+	margin-right:36px;
+}
+#propDetails-1{
+	margin-right:5px;
+}
+#propDetails-2{
+	margin-right:5px;
+}
+#propDetails-3{
+	margin-right:5px;
+}
+#propDetails-4{
+	margin-right:5px;
+}
+#propDetails-5{
+	margin-right:5px;
+}
+#propDetails-6{
+	margin-right:5px;
+}
+.deTa{
+	margin-right:15px;
+}
+.conDo{
+	margin-right:63px;
+}
+#comments{
+	resize:none;
+	width:325px;
+	height:80px;
+}
+propDetails-A{
+	font-size:12px;
+}
+propDetails-B{
+	font-size:12px;
+}
+propDetails-C{
+	font-size:12px;
+}
+propDetails-D{
+	font-size:12px;
+}
+propDetails-E{
+	font-size:12px;
+}
+propDetails-F{
+	font-size:12px;
+}
+
+
+
+
+.inside-Right{
+	float:left;
+	padding-top:10px;
+	border:1px solid;
+	padding-left:2px;
+	padding-right:2px;
+}
+.oBorder-Right{
+	border:4px outset #5555ff;
+	background-color: #99ddff;
+	color:inherit;
+	margin-top:10px;
+	margin-bottom:5px;
+	width:315px;
+	border-radius:10px;
+}
+#payment{
+	margin-left:100px;
+	margin-top:20px;
+	height:20px;
+}
+#montlyhPayment{
+	background: linear-gradient(#ffeeff,#00ccff);
+	border-radius:10px;
+	color: #cc0000;
+	background-color:inherit;
+}
+.outSide-In-Inside-Right{
+	background: linear-gradient(#ffeeff,#0088ff);
+	border-radius:15px;
+	margin-left:50px;
+	margin-top:10px;
+	border:solid 2px #cccccc;
+	padding:2px;
+	width:210px;
+}
+#errMessage{
+	width:310px;
+	height:474px;
+	border-radius:10px;
+	background-color:#ffffff;
+	border:1px solid;
+}
+
+
+.links{
+	margin-left:250px;
+}
+.links a{
+	text-decoration:none;
+	color:#cc0000;
+	background-color:inherit;
+	font-weight:bold;
+}
+ul {
+    list-style-type:none;
+    overflow: hidden;
+	text-align:center;
+	
+}
+li {
+    float: left;
+	margin-right:15px;
+	text-align:center;
+	text-decoration:none;
+}
+
+footer{
+	text-align:center;
+	margin:auto;
+	width:988px;
+	padding:5px;
+	color:#ffffff;
+	background-color:#000000;
+}
+
+
+
+.outside-Border-H{
+	background-color: #99ccff;
+	color:inherit;
+	width:922px;
+	height:405px;
+	margin:auto;
+	padding:25px;
+	border:2px solid #cccccc;
+}
+.sizing{
+	font-size:45px;
+}
+.pSizing{
+	font-size:20px;
+}
+.honestyFooter{
+	text-align:center;
+	width:965px;
+	height:70px;
+	padding:5px;
+	color:#ffffff;
+	background-color:#000000;
+}
+.labelSpacingsProperty{
+	font-weight:bold;
+	font-size:14px;
+}

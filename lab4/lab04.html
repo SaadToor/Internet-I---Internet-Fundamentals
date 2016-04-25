@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>int222_161b30 - lab04</title>
+    <link rel="stylesheet" href="css/normalize.css"   type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mystyle.css"     type="text/css" media="screen" />
+  </head>
+  <body>
+  <form action="https://zenit.senecac.on.ca/~emile.ohan/cgi-bin/echo-p.pl" method="get">
+	<div class="main">
+	  <div class="main_one">
+	  <div class="line">
+	  <p class="p1_main_one">
+	  <span class="s1_main_one">Lab 04</span><br/>
+	  <span class="s2_main_one">Papa's</span><br>
+	  <span class="s3_main_one">Pizza</span>
+	  </p>
+	  </div>
+	  <div class="line">
+	  <p class="p1_main_one">
+	  <span class="s2_2_main_one">416 or 905</span><br>
+	  <span class="s3_2_main_one">222-2626</span>
+	  </div>
+	  <div class="table_sec_main_one">
+	  	<table class="ToppingsTableOutBorderPrice">
+	     <tr>
+	     <td class="ToppingsTablePrice">Small</td>
+	     <td class="ToppingsTablePrice">$11.55</td>
+	     </tr>
+	     <tr>
+	     <td class="ToppingsTablePrice">Medium</td>
+	     <td class="ToppingsTablePrice">$15.25</td>
+	     </tr>
+	     <tr>
+	     <td class="ToppingsTablePrice">Large</td>
+	     <td class="ToppingsTablePrice">$22.00</td>
+	     </tr>
+	     <tr>
+	     <td class="ToppingsTablePrice">X-Large</td>
+	     <td class="ToppingsTablePrice">$25.00</td>
+	     </tr>
+	     <tr>
+	     <td colspan=2 class="ToppingsTablePrice"><span class="bolding">Toppings</span></td>
+	     </tr>
+	     <tr>
+	     <td class="ToppingsTablePrice">$1.79</td>
+	     <td class="ToppingsTablePrice">Each</td>
+	     </tr>
+	     <tr>
+		 <td colspan=2 class="ToppingsTablePrice"><span class="bolding">Plus 13% HST</span></td>
+		 </tr>
+		 <tr>
+		 <td colspan=2 class="ToppingsTablePrice"><span class="bolding">Free Delivery</span></td>
+		 </tr>
+		</table>
+	  </div>
+	  <div>
+	  <p>
+	  Your Price
+	  <input id="price" readonly="readonly"/>
+	  </p>
+	  </div>
+	  
+	  <input type="submit" id="button" value="PLACE YOUR ORDER"/>
+	  
+	  </div>
+	  
+	  <div class="main_two">
+       <table>
+        <tbody>
+		 <tr>
+          <td>
+           <fieldset class="border_main_two_pi">
+            <legend class="legend_main_two">Personal Information</legend>
+             <p>
+			 <label class="labelSpacings">
+              Name
+			  </label>
+			  <input type="text" name="surname" id="surname" maxlength="15"/>
+              <br/> 
+			  <label class="labelSpacings">			  
+              Account No.
+              </label>
+			  <input type="text" name="client" id="client" maxlength="12"/>
+			  <br/> 
+			  <label class="labelSpacings">
+              Phone No.
+              </label>
+			  <input type="text" name="phone" id="phone" maxlength="12"/>
+			  <br/>  
+			  <label class="labelSpacings">
+              Date of Birth
+              </label>
+			  <input type="text" name="dob" id="dob" maxlength="7"/>
+			  </p>
+            </fieldset> 
+           </td>
+          </tr>
+         </tbody>
+		</table>
+       
+	   
+      <table>
+       <tbody>
+        <tr>
+         <td>
+          <fieldset class="border_main_two_pc">
+           <legend class="legend_main_two">Pizza size  & Curst</legend> 
+	        <select id="pizzaSize" name="pizzaSize" size="2">
+             <option value="Select Pizza Size">Select Pizza Size</option>
+             <option value="S">Small</option>
+             <option value="M">Medium</option>
+             <option value="L">Large</option>
+             <option value="X">X-Large</option>
+            </select>
+			
+			<select id="pizaCrust" name="pizaCrust" size="2">
+			 <option value="regular">Regular Crust</option>
+			 <option value="thin">Thin Crust</option>
+			 <option value="thick">Thick Crust</option>
+			 <option value="wheat">Whole Wheat Crust</option>
+			</select>
+	       </fieldset> 
+          </td>
+         </tr>
+        </tbody>
+	   </table>
+	   
+	   <fieldset class="border_main_two">
+	    <legend class="legend_main_two">Cheeses</legend>
+	    <input type="radio" name="cheese" id="c01" value="Mozzarella"/>Mozzarella
+	    <input type="radio" name="cheese" id="c02" value="Reduced Fat" />Reduced Fat
+	    <input type="radio" name="cheese" id="c03" value="Feta"/>Feta
+	   </fieldset>
+	   
+	   <fieldset class="border_main_two_sa">
+	    <legend class="legend_main_two">Sauces</legend>
+		<input type="radio" name="sauce" id="s01" value="Pizza Sauce" />Pizza Sauce
+		<input type="radio" name="sauce" id="s02" value="BBQ Sauce" />BBQ Sauce
+		<input type="radio" name="sauce" id="s03" value="Garlic Sauce"/>Garlic Sauce
+	   </fieldset>
+	   
+       <fieldset class="border_main_two_s">
+        <legend class="legend_main_two">Special Instructions</legend>
+         <textarea name="note" id="note" maxlength="150"></textarea>
+        </fieldset> 
+	   
+	  </div>
+	  
+	  <div class="main_three">
+	   <fieldset class="border_main_two_tp">
+	    <legend class="legend_main_two">Toppings-$1.79 each</legend>
+		 <input type="checkbox" name="toppings" id="t01" value="Anchovies"/><span class="space_main_two">Anchovies</span>
+		 <input type="checkbox" name="toppings" id="t07" value="Broccoli" /><span class="space_main_two">Broccoli</span><br/>
+		 <input type="checkbox" name="toppings" id="t02" value="Bacon" /><span class="space_main_two">Bacon</span>
+		 <input type="checkbox" name="toppings" id="t08" value="Green Olives" /><span class="space_main_two">Green Olives</span><br/>
+		 <input type="checkbox" name="toppings" id="t03" value="Ham" /><span class="space_main_two">Ham</span>
+		 <input type="checkbox" name="toppings" id="t09" value="Green Peppers" /><span class="space_main_two">Green Peppers</span><br/>
+		 <input type="checkbox" name="toppings" id="t04" value="Pepperoni" /><span class="space_main_two">Pepperoni</span>
+		 <input type="checkbox" name="toppings" id="t10" value="Mushrooms" /><span class="space_main_two">Mushrooms</span><br/>
+		 <input type="checkbox" name="toppings" id="t05" value="Salami" /><span class="space_main_two">Salami</span>
+		 <input type="checkbox" name="toppings" id="t11" value="Red Onions" /><span class="space_main_two">Red Onions</span><br/>
+		 <input type="checkbox" name="toppings" id="t06" value="Sausage" /><span class="space_main_two">Sausage</span>
+		 <input type="checkbox" name="toppings" id="t12" value="Roasted Garlic" /><span class="space_main_two">Roasted Garlic</span>
+        </fieldset>
+		
+		<div id="special">
+         <img src="papas.jpg" alt="" />
+        </div>
+		
+	  </div>
+	  
+	 </div>
+	 
+	<div class="footer">
+	<script>
+     var dt=new Date(document.lastModified);   // Get document last modified date
+     document.write('This page was last updated on '+dt.toLocaleString()) 
+    </script>
+	</div>
+   </form>
+  </body>
+</html>
